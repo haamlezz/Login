@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form by Mongh</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<style type="text/css">
+		body{
+			background-image: url(1.jpg);
+			background-size: cover;
+		}
+		.container{
+			background-color: rgba(0,0,0,0.5);
+			height: 400px;
+			width: 400px;
+			color: #fff;
+			line-height: 10px;
+			font-family: sans-serif,arial;
+			text-align: center;
+			border-radius: 15px;
+			margin-left: 120px;
+			margin-top: 130px;
+			-webkit-border-radius: 15px;
+			-o-border-radius: 15px;
+			-moz-border-radius: 15px;
+		}
+		form{
+			padding: 20px;
+			margin-left: 0px;
+			margin-top: 20px;
+		}
+		.vv{
+			height: 25px;
+			width: 250px;
+			border-radius: 10px;
+			border: 1px solid #fff;
+			letter-spacing: 0.1em;
+		}
+		input[type="password"]{
+			height: 25px;
+			margin-top: 30px;
+			width: 250px;
+			border-radius: 10px;
+			text-overflow: ellipsis;
+			border: 1px solid #fff;
+		}
+		#submit{
+			background-color: skyblue;
+			width: 100px;
+			margin-top: 30px;
+			height: 25px;
+			border-radius: 10px;
+			border: 1px solid skyblue;
+			cursor: pointer;
+			font-size: 14px;
+			font-weight: bolder;
+		}
+		a{
+			color: #fff;
+			margin-left: 10px;
+		}
+		#i-control{
+			position: absolute;
+			color: #000;
+			margin-top: 5px;
+			margin-left: 15px;
+		}
+		#i-controls{
+			position: absolute;
+			color: #000;
+			margin-top: 35px;
+			margin-left: 15px;
+		}
+		::-webkit-input-placeholder{
+ 			font-size: 14px;
+ 			font-weight: bolder;
+ 			padding-left: 0px;
+		}
+		:placeholder-shown{
+			padding-left: 40px;
+		}
+		#i-controler:before{
+			color: #fff;
+			position: absolute;
+		}
+		.icon-twitter{
+			height: 0px;
+			width: 50px;
+			background-color: #0099cc;
+		}
+		.icon-facebook{
+			background-color: #336699;
+		}
+		.icon-google-plus{
+			background-color: #cc3333;
+		}
+		.social i{
+			margin-left: 20px;
+		}
+	</style>
+</head>
+<body>
+<div class="container"><br>
+		<h2>Login Form</h2><br>
+		<a href="#">Sign In</a>
+		<a href="#"> Sign Up</a><br>
+	<form action="#" method="post">
+		<i class="icon-user" id="i-control"></i>
+		<input class="vv" type="text" name="name" placeholder="Enter your name"><br>
+		<i class="icon-lock" id="i-controls"></i>
+		<input type="password" name="password" placeholder="Enter your password"><br>
+		<input id="submit" type="submit" name="submit" value=" Login">
+		<a href="#">Foget Password</a><br>
+	</form>
+		<div class="social">
+		<h4>Join with:</h4>
+			<i class="icon-twitter"></i><a href="#" id="i-controler">Twitter</a>
+			<i class="icon-facebook"></i><a href="#" id="i-controler">Facebook</a>
+			<i class="icon-google-plus"></i><a href="#" id="i-controler">Google+</a>
+</div>
+</body>
+</html>
